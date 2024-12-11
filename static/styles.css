@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0e6f6; /* Warna latar belakang yang lembut */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff; /* Latar belakang putih untuk kontras */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #d5006d; /* Warna pink yang cerah */
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #4a4a4a; /* Warna label yang lebih gelap untuk kontras */
+}
+
+form input, form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input:focus {
+    border-color: #d5006d; /* Warna border saat fokus */
+    outline: none; /* Menghilangkan outline default */
+}
+
+form button {
+    background-color: #d5006d; /* Warna tombol pink */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+form button:hover {
+    background-color: #b0003a; /* Warna gelap saat hover */
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Nikah</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Pendaftaran Nikah</h1>
+        <form action="/submit" method="post">
+            <label for="nama_pria">Nama Calon Mempelai Pria:</label>
+            <input type="text" id="nama_pria" name="nama_pria" required><br>
+            
+            <label for="nama_wanita">Nama Calon Mempelai Wanita:</label>
+            <input type="text" id="nama_wanita" name="nama_wanita" required><br>
+            
+            <label for="umur_pria">Umur Calon Mempelai Pria:</label>
+            <input type="number" id="umur_pria" name="umur_pria" required><br>
+            
+            <label for="umur_wanita">Umur Calon Mempelai Wanita:</label>
+            <input type="number" id="umur_wanita" name="umur_wanita" required><br>
+            
+            <label for="tanggal_nikah">Tanggal Rencana Nikah:</label>
+            <input type="date" id="tanggal_nikah" name="tanggal_nikah" required><br>
+            
+            <label for="alamat_pria">Alamat Calon Mempelai Pria:</label>
+            <input type="text" id="alamat_pria" name="alamat_pria" required><br>
+            
+            <label for="alamat_wanita">Alamat Calon Mempelai Wanita:</label>
+            <input type="text" id="alamat_wanita" name="alamat_wanita" required><br>
+            
+            <label for="wali_nikah">Nama Wali Nikah:</label>
+            <input type="text" id="wali_nikah" name="wali_nikah" required><br>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

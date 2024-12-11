@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasil Pendaftaran</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Data Pendaftaran Nikah</h1>
+        <p><strong>Nama Calon Mempelai Pria:</strong> {{ nama_pria }}</p>
+        <p><strong>Nama Calon Mempelai Wanita:</strong> {{ nama_wanita }}</p>
+        <p><strong>Umur Calon Mempelai Pria:</strong> {{ umur_pria }}</p>
+        <p><strong>Umur Calon Mempelai Wanita:</strong> {{ umur_wanita }}</p>
+        <p><strong>Tanggal Rencana Nikah:</strong> {{ tanggal_nikah }}</p>
+        <p><strong>Alamat Calon Mempelai Pria:</strong> {{ alamat_pria }}</p>
+        <p><strong>Alamat Calon Mempelai Wanita:</strong> {{ alamat_wanita }}</p>
+        <p><strong>Nama Wali Nikah:</strong> {{ wali_nikah }}</p>
+    </div>
+</body>
+</html>
